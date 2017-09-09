@@ -1,0 +1,17 @@
+import turtle
+x= int(input("please enter the X value of center of rectangle :"))
+y= int(input("please enter the Y value of center of rectangle :"))
+height= int(input("please enter the height value of center of rectangle :"))
+width= int(input("please enter the width value of center of rectangle :"))
+
+turtle.penup()
+turtle.goto(x-width/2,y-height/2)
+turtle.pendown()
+turtle.forward(width)
+turtle.left(90)
+turtle.forward(height)
+turtle.left(90)
+turtle.forward(width)
+turtle.left(90)
+turtle.forward(height)
+turtle.exitonclick()
