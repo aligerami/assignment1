@@ -1,4 +1,3 @@
-from pip.pep425tags import get_darwin_arches
 today=int(input("Enter today's day:"))
 number_of_elapse_day=int(input("Enter the number of days elapsed since today :"))
 

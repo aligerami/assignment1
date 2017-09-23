@@ -6,4 +6,4 @@ while True:
         else:
             break
 
-print(number%10 + ((number//10))%10 + ((number//100))%10)
+print("sum of digits is : ",number%10 + ((number//10))%10 + ((number//100))%10)

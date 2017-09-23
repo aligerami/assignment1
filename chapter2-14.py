@@ -1,5 +1,4 @@
 import math
-from test._test_multiprocessing import sqr
 string_input = input("please enter triangle's three points like this 11,12,21,22,31,32")
 #string_input ="1.5,-3.4,4.6,5,9.5,-3.4"
 points=string_input.split(",")

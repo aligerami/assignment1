@@ -1,7 +1,7 @@
 money=int(input("please enter your money amount : "))
 interest = (0.05)/12
 account_balance_after_six_month=0
-print(interest)
+print()
 
 temp=6
 while temp>0:

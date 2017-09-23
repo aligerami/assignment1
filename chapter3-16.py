@@ -16,6 +16,6 @@ drawLine(-80,30,6)
 drawLine(0,25,7)
 drawLine(80,23,8)
 drawLine(160,19,9)
-drawLine(240,1,710)
+drawLine(240,17,10)
 
 turtle.exitonclick()

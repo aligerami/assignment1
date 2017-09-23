@@ -1,15 +1,15 @@
 import turtle
 import math
-
-#x1=int(input("enter x for the first point"))
-#y1=int(input("enter y for the first point"))
-#x2=int(input("enter x for the second point"))
-#y2=int(input("enter y for the second point"))
-
 x1=0
 y1=10
 x2=100
 y2=200
+x1=int(input("enter x for the first point"))
+y1=int(input("enter y for the first point"))
+x2=int(input("enter x for the second point"))
+y2=int(input("enter y for the second point"))
+
+
 
 m= (y2-y1)/(x2-x1)
 angle=math.atan(m)*180/3.14

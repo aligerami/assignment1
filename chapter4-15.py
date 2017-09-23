@@ -4,8 +4,6 @@ random_number_hundred=int(str(random_number)[0])
 random_number_one=int(str(random_number)[2])
 random_number_ten=int(str(random_number)[1])
 
-print(random_number)
-
 user_number=(input("please input 3 digit number :"))
 
 user_number_one=int(str(user_number)[2])
